@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>FORMS </title>
+    </head>
+
+    <body>
+    <form action ="Image.html" method="get">
+        <fieldset>
+            <legend> Personal Information:</legend>
+        First name:<input type= "text" name="firstname" value="Ram">
+        Last name:<input type= "text" name="lastname" value="Naik">
+    <hr>
+        Car: <select name="Cars">
+            <option value="Audi">Audi</option>
+        <hr>
+            <option value="Mercedes">Mercedes</option>
+        </select>
+        <hr>
+        <input type ="submit" value="SUBMIT">
+        </fieldset>
+        </form>
+            <br>
+        <form action="contact.html">
+        Username : <input type="text" name="userid">
+        <br><br>
+        Email ID : <input type="email" name="email">
+        <br><br>
+        Password : <input type="password" name="psw">
+        <br><br>
+        <input type="radio" name="gender" value="male" checked> Male<br>
+        <input type="radio" name="gender" value="female"> Female<br>
+        <input type="radio" name="gender" value="other"> Other<br><br>
+
+        <input type = "checkbox" name="vehicle1" value="Bike"> Hornet
+        <input type = "checkbox" name="vehicle2" value="Car">Mercedes
+            <br>
+        Quantity (between 1 and 10):<input type="number" name="quantity" min="1" max="10">
+       <br>
+        <input type="button" onclick="alert(Hello World!)" value="Click Here!">
+        <br><br>
+
+        Telephone:<input type="tel" name="telno">
+        <br><br>
+        Range :<input type="range" min="0" max="10" name="range">
+        <br><br>
+        Date Fields :<input type="date" name="date">
+        <br><br>
+        Month Fields :<input type="month" name="month">
+        <br><br>
+        Week Fields :<input type="week" name="week">
+        <br><br>
+        Time Fields :<input type="time" name="time">
+        <br><br>
+        Datetime Local Fields :<input type="datetime-local" name="datetime-local">
+        <br><br>
+        Color Fields :<input type="color" name="color">
+        <br><br>        
+        <input type="submit" value="SUBMIT">
+        <input type="reset">
+        </form>
+
+        <h4>Label</h4>
+
+        <form>
+            <label> First Name:
+                <input type="text" name="firstName">
+            </label>
+
+            <label for="userid" Username></label> // INCOMPLETE
+        </form>
+    </body>
+
+</html>
