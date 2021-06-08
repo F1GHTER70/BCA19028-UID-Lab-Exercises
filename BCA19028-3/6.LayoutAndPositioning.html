@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LAyout and Positioning</title>
+
+    <style>
+        .container
+        {
+            border: 2px solid blue;
+            background-color: khaki;
+            height: 3444px;
+        }
+        .box
+        {
+            display: inline-block;
+            border: 2px solid red;
+            width: 120px;
+            height: 120px;
+            margin: 5px;
+        }
+        #box1
+        {
+            position: absolute;
+            top: 31px;
+            left: 120px;
+        }
+        #box2
+        {
+            position: fixed;
+            right: 4px;
+            bottom: 3px;
+        }
+        #box3
+        {
+            position: relative;
+        }
+        #box4
+        {
+            position: sticky;
+            top: 5px;   
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="box1">1</div>
+        <div class="box" id="box2">2</div>
+        <div class="box" id="box3">3</div>
+        <div class="box" id="box4">4</div>
+
+    </div>
+</body>
+</html>
